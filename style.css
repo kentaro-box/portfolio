@@ -1,0 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+	line-height: 1;
+	animation: fadeIn 2s ease-out 0s 1 normal;
+    -webkit-animation: fadeIn 2s ease-out 0s 1 normal;
+    color: #484646;
+    box-sizing: border-box;
+
+}
+@keyframes fadeIn {
+    0% {opacity: 0;transform:  translateY(30px); }
+    100% {opacity: 1;transform:  translateY(0px);}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;
+    	transform:  translateY(30px);
+    }
+    100% {opacity: 1;
+    	transform:  translateY(0px);
+    }
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+/*blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}*/
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration: none;
+	color: #484646;
+	cursor: pointer
+}
+header {
+	width: 90%;
+	margin: 0 auto;
+}
+header ul {
+	text-align: right;
+
+}
+header ul li {
+	display: inline-block;
+	margin: 48.5px 0 30px 30px;
+	font-size: 0.9em;
+	font-family: 'HanziPen SC','HanziPen TC','Yu Gothic UI','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体';
+	
+
+}
+header p {
+	display: inline-block;
+	margin: 30px;
+	float: left;
+	font-size: 2em;
+	font-family: 'HanziPen SC','HanziPen TC','Yu Gothic UI','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体';
+}
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	margin-top: 60px;
+}
+.message h1 {
+	padding: 30px;
+	font-size: 48px;
+	text-align: left;
+	display: inline-block;
+	color: #ACB6E5;
+	font-weight: bold;
+	margin-right:-200px;
+	z-index: 200;
+	background-color: #ffffffa3;
+	border: 1px solid #00000021;
+	position: absolute;
+	top: 210px;
+	background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*.message h1:after{
+	position:absolute;
+  top:0;
+  left:0;
+  color:#00b0ff;
+}
+.message h1:before{
+	display:block;
+  content:attr(title);
+  color:#003577;
+  -webkit-mask-image:-webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1));
+}*/
+.top-image {
+	position: relative;
+	z-index: 90;
+	
+}
+.top-image img{
+	width: 100%;
+	text-align: right;
+	display: inline-block;
+	
+}
+.top-image:before{
+	content: '';
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+}
+.the-works {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(200px, 1fr));
+	width:90%;
+	margin: 0 auto;
+	grid-gap: 52px;
+}
+.the-works img {
+	width: 200px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.the-works a {
+	width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #00bcd44f;
+    padding: 12px 0 15px 0;
+}
+.the-works p {
+	padding: 10px 0 0 0;
+	border-top: 1px solid #00bcd44f;
+}
+.h2title {
+	text-align: center;
+    font-size: 2em;
+    font-family: 'HanziPen SC','HanziPen TC','Yu Gothic UI','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体';
+    padding: 60px;
+    position: relative;
+}
+.h2title:before {
+	content: '';
+    /* width: 10px; */
+    border-color: transparent transparent #00bcd438 transparent;
+    border-width: 0 210px 60px 0;
+    position: absolute;
+    top: 30px;
+    left: 44%;
+    height: 10px;
+    border-style: solid;
+}
+footer p {
+	padding: 9px 0;
+	font-size: 1.3em;
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+	text-align: center;
+}
+footer {
+	background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8);
+	margin-top: 60px;
+}
