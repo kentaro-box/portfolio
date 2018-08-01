@@ -81,7 +81,8 @@ header {
 }
 header a {
     color: white;
-    transition: 0.5s
+    transition: 0.5s;
+　　　　　　　　font-family: 'HanziPen SC','HanziPen TC','Yu Gothic UI','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体';
 }
 header a:hover{
 	color: #ffeb3b;
