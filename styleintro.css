@@ -90,6 +90,7 @@ header a:hover{
 }
 header li {
 	color: white;
+	font-family: 'HanziPen SC','HanziPen TC','Yu Gothic UI','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体';
 }
 
 .container {
