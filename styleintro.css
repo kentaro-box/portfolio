@@ -81,8 +81,8 @@ header {
 }
 header a {
     color: white;
-    transition: 0.5s;
-　　　　　　　　font-family: 'HanziPen SC','HanziPen TC','Yu Gothic UI','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体';
+    transition: 0.5s
+
 }
 header a:hover{
 	color: #ffeb3b;
@@ -99,7 +99,7 @@ header li {
 .top-introduction {
 	width: 100%;
 	overflow: hidden;
-	padding-left: 20px;
+	
 
 }
 .top-introduction:before{
@@ -122,6 +122,7 @@ header li {
                -0.5px 0.5px 0 #fff,
                0.5px -0.5px 0 #fff,
                -0.5px -0.5px 0 #fff;
+     padding-left: 20px;
 	
 }
 .top-introduction p {
@@ -133,6 +134,7 @@ header li {
                -0.5px 0.5px 0 #fff,
                0.5px -0.5px 0 #fff,
                -0.5px -0.5px 0 #fff;
+     padding-left: 20px;
 }
 .top-introduction img {
 	position: absolute;
