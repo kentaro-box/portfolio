@@ -92,7 +92,10 @@ header li {
 	color: white;
 	font-family: 'HanziPen SC','HanziPen TC','Yu Gothic UI','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体';
 }
-
+.thanks-header {
+	width:100vw;
+	height: 100vh;
+}
 .container {
 	width: 100%;
 }
@@ -165,6 +168,105 @@ header li {
     border-left: 6px solid #00bcd438;
     padding-left: 9px;
     margin-bottom: 9px;
+}
+.self-Introduction h2 span {
+	color: red;
+	font-weight: bold;
+}
+input {
+	width: 50%;
+	background-color:rgba(255,255,255,0.1);
+	border-radius:10px;
+	margin-bottom: 11px;
+	height: 30px;
+	border: 1px solid gray;
+}
+textarea {
+	width: 50%;
+	background-color:rgba(255,255,255,0.1);
+	border-radius:10px;
+	border: 1px solid gray;
+	height: 90px;
+}
+input[type="radio"] {
+	width:21px;
+	font-size: 18px;
+	height:18px;
+	margin:9px 0 15px 0;
+}
+input[type="submit"] {
+	width:60px;
+	border-radius:10px;
+	border: 1px solid gray;
+	height: 30px;
+
+}
+form span {
+	color: red;
+}
+form em {
+	color: red;
+}
+.song-grid {
+	display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* width: 90%; */
+    margin: 0 auto;
+    grid-gap: 90px 52px;
+    box-sizing: border-box;
+    padding: 0 20px 0 20px;
+}
+.song {
+    height: 120%;
+    width: 100%;
+    position: relative;
+}
+
+
+iframe {
+	width:100%;
+	height: 100%;
+}
+
+.center-btn {
+	width: 200px;
+	height: 100px;
+	margin: 0 auto;
+}
+.center-btn a {
+	margin-top: 150px;
+	text-align: center;
+    border: 0.1px solid #00bcd438;
+    background-color: #00bcd438;
+    color: #009688;
+    display: block;
+    padding: 15px;
+    border-radius: 12px;
+    transition: 0.5s
+}
+.center-btn a:hover{
+	color: #00bcd438;
+	opacity: 0.9;
+	transition: 0.5s;
+
+}
+
+.recomend-inner {
+	font-size: 1.3em;
+    margin-bottom: 12px;
+    border-left: solid 9px #00bcd438;
+    margin-left: 20px;
+    /* margin-top: 20px; */
+    padding: 9px;
+}
+.recomend-song p {
+	margin-left: 38px;
+	margin-bottom:60px;
+}
+.characteristic p {
+	text-align: center;
+	margin-left: 0;
+	padding-left: 0;
 }
 footer {
     background: -webkit-linear-gradient(0deg, #00968880, #277ec396);
