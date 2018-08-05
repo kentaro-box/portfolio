@@ -189,7 +189,7 @@ header p a {
 }
 .the-works {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	width:90%;
 	margin: 0 auto;
 	grid-gap: 52px;
