@@ -95,11 +95,11 @@ a {
 header {
 	width: 90%;
 	margin: 0 auto;
-	/*color: white;*/
-}
-/*header a {
 	color: white;
-}*/
+}
+header a {
+	color: white;
+}
 header ul {
 	text-align: right;
 
@@ -189,13 +189,13 @@ header p a {
 }
 .the-works {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-template-columns: repeat(4, minmax(200px, 1fr));
 	width:90%;
 	margin: 0 auto;
 	grid-gap: 52px;
 }
 .the-works img {
-	width: 200px;
+	width: 100%;
 	text-align: center;
 	padding-bottom: 10px;
 }
@@ -207,27 +207,24 @@ header p a {
     padding: 12px 0 15px 0;
 }
 .the-works p {
-	padding: 10px 0 0 0;
+	padding: 10px 0 0 24px;
 	border-top: 1px solid #00bcd44f;
 	width: 100%;
 	text-align: left;
 	margin: 0 auto;
 	display: block;
+
 }
 .the-works p span {
-	margin: 0 auto;
-}
-.works-title {
-	width:100%;
-	text-align: center;
+	margin: 0 auto 0 -8px;
+	
 }
 .h2title {
 	text-align: center;
     font-size: 2em;
     font-family: 'HanziPen SC','HanziPen TC','Yu Gothic UI','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体';
-    padding: 60px 27px;
+    padding: 60px;
     position: relative;
-    display: inline-block;
 }
 .h2title:before {
 	content: '';
@@ -236,7 +233,7 @@ header p a {
     border-width: 0 210px 60px 0;
     position: absolute;
     top: 30px;
-    left: 0;
+    left: 44%;
     height: 10px;
     border-style: solid;
 }
